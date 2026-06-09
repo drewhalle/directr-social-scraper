@@ -5,15 +5,15 @@ from typing import List, Dict
 import aiohttp
 from bs4 import BeautifulSoup
 
-from config import (
+from .config import (
     INSTAGRAM_HANDLE,
     TIKTOK_HANDLE,
     POSTS_TO_FETCH,
     COMMENT_SAMPLE_SIZE,
     ANNABEL_ARTIST_ID,
 )
-from supabase_client import SupabaseClient
-from comment_analyzer import CommentAnalyzer
+from .supabase_client import SupabaseClient
+from .comment_analyzer import CommentAnalyzer
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

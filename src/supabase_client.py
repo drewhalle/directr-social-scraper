@@ -2,7 +2,7 @@ import logging
 import json
 from datetime import datetime
 from supabase import create_client, Client
-from config import SUPABASE_URL, SUPABASE_KEY, ANNABEL_ARTIST_ID
+from .config import SUPABASE_URL, SUPABASE_KEY, ANNABEL_ARTIST_ID
 
 logger = logging.getLogger(__name__)
 

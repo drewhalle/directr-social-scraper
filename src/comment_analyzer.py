@@ -1,6 +1,6 @@
 import logging
 from textblob import TextBlob
-from config import FAMILY_KEYWORDS, BOT_KEYWORDS
+from .config import FAMILY_KEYWORDS, BOT_KEYWORDS
 
 logger = logging.getLogger(__name__)
 
